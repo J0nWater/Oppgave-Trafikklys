@@ -1,0 +1,33 @@
+.trafficLightContainer {
+    display: flex;
+    width: 180px;
+    height: 520px;
+    background-color: black;
+    border-radius: 40px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.red {
+    background-color: red;
+    opacity: 10%;
+}
+.orange {
+    background-color: orange;
+    opacity: 10%;
+}
+.green {
+    background-color: green;
+    opacity: 10%;
+
+}
+.lamp {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.active {
+    opacity: 100%;
+}
